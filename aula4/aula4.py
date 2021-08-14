@@ -1,0 +1,1 @@
+print('Luiz', type('Luiz'))

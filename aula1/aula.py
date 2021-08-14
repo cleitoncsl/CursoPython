@@ -1,0 +1,6 @@
+print('linha1')
+print('linha2')
+print('linha3')
+print('linha4')
+print('linha5')
+print('linha6')
