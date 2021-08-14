@@ -11,7 +11,7 @@ if idade.isdigit() and not nome.isdigit():
     if qtde_carac_nome <= 4:
         print('Digite um nome valido!')
     else:
-        if idade >= idade_menor and idade <= idade_maior:
+        if idade_menor <= idade <= idade_maior:
             print(f'{nome} voce pode pegar o empréstimo')
         else:
             print(f'{nome}, voce não pode pegar o empréstimo.')
