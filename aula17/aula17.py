@@ -24,7 +24,7 @@ while x <= x:
             print(f'{x} {op} {y} =', f'{resultado:.4f}')
             y += 1
         else:
-            print("Voce Digitou um Opereador que não existe..")
+            print("hm..você digitou um operador que não existe..")
             break
 
     x += 1
