@@ -7,4 +7,4 @@ print(f'{nome} tem {idade} anos')
 
 numero1 = input("Digite um nuero: ")
 numero2 = input("Digite um nuero: ")
-soma = 
+soma = numero1 + numero2
