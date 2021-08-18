@@ -10,7 +10,7 @@ while True:
     letra = input('Digite uma letra: ')
 
     if len(letra) > 1:
-        print('não vale digite apenas uma letra.')
+        print('não vale, digite apenas uma letra.')
         continue
     digitadas.append(letra)
     print(digitadas)
@@ -27,6 +27,7 @@ while True:
             secreto_temporario += letra_secreta
         else:
             secreto_temporario += '*'
+
     if secreto_temporario == secreto:
         print(f'Parabéns voce descobriu a palavra! {secreto} ')
         break
