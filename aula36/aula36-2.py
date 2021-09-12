@@ -9,10 +9,12 @@ for index in range(19):
         index -= 9
 
     total += int(novo_cpf[index]) * reverso
+    print(f' Digito: {index} -> {(novo_cpf[index])} * {reverso} = {total}')
 
     reverso -= 1
     if reverso < 2:
         reverso = 11
+        print(f'reverso mudou para: {reverso}')
         d = 11 - (total % 11)
 
         if d > 9:
